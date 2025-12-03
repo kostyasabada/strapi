@@ -17,7 +17,7 @@ export interface BlocksHeroSection extends Struct.ComponentSchema {
 export interface BlocksInfoBlock extends Struct.ComponentSchema {
   collectionName: 'components_blocks_info_blocks';
   info: {
-    displayName: 'info Block';
+    displayName: 'Info Block';
   };
   attributes: {
     content: Schema.Attribute.RichText;
